@@ -10,12 +10,35 @@ export default function Home() {
       <h2>Mintys is Susana's web developer demo </h2>
 
       <div className="p-2 bg-light border">
-        {" "}
-        Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo.
+        Susana's Web Developer Demo which includes :
       </div>
       <div className="p-2 bg-light border ">
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+        <ul className="home">
+          <li>
+            {" "}
+            <i className="bi bi-feather pr-05 text-secondary"></i> Design your
+            own garden with js library dnd for drag and drop.
+          </li>
+          <li>
+            {" "}
+            <i className="bi bi-feather pr-05 text-primary"></i> Filter artists
+            with the costarican artists directory . Using register, login and
+            jswebtoken for authenticating.{" "}
+          </li>
+          <li>
+            {" "}
+            <i className="bi bi-feather pr-05 text-info"></i> Main projects on
+            my FullStack Academy web developer bootcamp{" "}
+          </li>
+          <li>
+            {" "}
+            <i className="bi bi-feather pr-05 text-warning "></i>About Me/
+            Resume / Contact
+          </li>
+        </ul>
+      </div>
+      <div className="p-2 bg-light border ">
+        Technologies used: PERN Postgress , Express , React and Node
       </div>
     </div>
   );
