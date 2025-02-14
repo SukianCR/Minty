@@ -13,8 +13,8 @@ export default function Home() {
         Susana's Web Developer Demo which includes :
       </div>
 
-      <div className="p-2 bg-light  ">
-        <ul className="home">
+      <div className="p-2   p-0 m-0  ">
+        <ul className="home  p-0 ">
           <li className="border border-secondary ">
             {" "}
             <i className="bi bi-feather  text-secondary pr-05 "></i> Design your
@@ -40,7 +40,12 @@ export default function Home() {
       </div>
 
       <div className="p-2 bg-light border ">
-        Technologies used: PERN Postgress , Express , React and Node
+        Technologies used: PERN Postgress , Express , React and Node . CSS flex
+        to make it resizable . Bootswatch template{" "}
+        <a href="https://bootswatch.com/minty/" target="_blank">
+          Minty
+        </a>{" "}
+        .
       </div>
     </div>
   );

@@ -133,7 +133,26 @@
   padding: 1em;
   margin: 1em;
   list-style: none;
+  transition: margin-top 1s;
 }
+
+.home > li:hover {
+  margin-top: 0em;
+  margin-bottom: -1em;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .home > li {
+    padding: 1em;
+  }
+}
+
+.home > li:hover {
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+}
+
 .drop_position {
   margin: 1em;
   display: flex;
