@@ -9,10 +9,12 @@ export default function Nav_Bar() {
       data-bs-theme="dark"
     >
       <div className="container-fluid ">
-        <NavLink to="/" className="navbar-brand text-secondary">
-          Minty
-          <i className="bi bi-feather pr-05"></i>
-          <span className="text-warning">Demo</span>{" "}
+        <NavLink to="/" className="navbar-brand text-secondary up1 ">
+          <span className="twoX shadow-red"> Minty </span>
+          <i className="bi bi-feather pr-03 twoX fw-bold shadow-red"></i>
+          <span className="text-warning twoX fw-light shadow-yellow">
+            Demo
+          </span>{" "}
           <span className="visually-hidden">(current)</span>
         </NavLink>
 
@@ -30,17 +32,17 @@ export default function Nav_Bar() {
         <div className="collapse navbar-collapse" id="navbarColor02">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <NavLink to="/garden" className="nav-link text-dark-emphasis ">
+              <NavLink to="/garden" className="nav-link text-light ">
                 Garden Studio
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/artists" className="nav-link ">
+              <NavLink to="/artists" className="nav-link text-light">
                 CR Artists
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/fswa" className="nav-link ">
+              <NavLink to="/fswa" className="nav-link text-light">
                 FullStack Academy
               </NavLink>
             </li>
@@ -48,7 +50,7 @@ export default function Nav_Bar() {
             <li className="nav-item dropdown">
               <NavLink
                 to="/resume"
-                className="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle text-light"
                 data-bs-toggle="dropdown"
                 href="#"
                 role="button"
@@ -57,11 +59,17 @@ export default function Nav_Bar() {
               >
                 Susana
               </NavLink>
-              <div className="dropdown-menu mb-3 ">
-                <NavLink to="/about" className="nav-link ">
+              <div className="dropdown-menu mb-3 pink up2">
+                <NavLink
+                  to="/about"
+                  className="nav-link border-bottom border-warning "
+                >
                   About
                 </NavLink>
-                <NavLink to="/resume" className="nav-link ">
+                <NavLink
+                  to="/resume"
+                  className="nav-link border-bottom border-warning"
+                >
                   Resume
                 </NavLink>
                 <NavLink to="/contact" className="nav-link ">

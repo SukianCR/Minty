@@ -1,6 +1,35 @@
 /** GARDEN CSS **/
 
 /** Position css **/
+
+.shadow-green {
+  text-shadow: 2px 2px rrgb(0, 148, 5);
+}
+.shadow-red {
+  text-shadow: 2px 2px rgb(211, 0, 0);
+}
+.shadow-yellow {
+  text-shadow: 2px 2px rgb(177, 177, 0);
+}
+
+.shadow:hover {
+  border-bottom: #ff4da67c dotted 0.4em;
+  transition: 0.5s;
+}
+
+.up1 {
+  margin-top: -0.5em;
+}
+.up2 {
+  margin-top: -0.6em !important;
+}
+.twoX {
+  font-size: 1.3em;
+}
+.btb {
+border-
+}
+
 .aife {
   align-items: flex-end !important;
 }
@@ -22,6 +51,9 @@
 
 .pr-05 {
   padding-right: 0.5em;
+}
+.pr-03 {
+  padding-right: 0.3em;
 }
 .pr-1 {
   padding-right: 1em;
@@ -98,8 +130,7 @@
 }
 
 .pink {
-  background-color: pink !important;
-  color: #000000;
+  background-color: #f3969b9f !important;
 }
 
 .hot-pink {
@@ -189,7 +220,6 @@ nav {
 }
 .nav-link {
   padding: 1em 1.3em !important;
-  
 }
 .btn-link {
   text-decoration: none !important;
@@ -364,11 +394,6 @@ img {
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  transition: 0.5s;
-}
-
-.shadow:hover {
-  border-bottom: #ff4da67c dotted 0.4em;
   transition: 0.5s;
 }
 
