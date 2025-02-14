@@ -141,6 +141,18 @@
   margin-bottom: -1em;
 }
 
+body {
+  /* background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 0, 0, 0.151),
+    rgba(255, 255, 0, 0.137)
+  ); */
+  min-height: 100vh;
+
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
   .home > li {
@@ -172,9 +184,12 @@ input,
 select {
   text-align: center;
 }
-
+nav {
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+}
 .nav-link {
   padding: 1em 1.3em !important;
+  
 }
 .btn-link {
   text-decoration: none !important;

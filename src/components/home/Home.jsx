@@ -6,32 +6,33 @@ export default function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="d-grid gap-3 text-center pt-5 px-4 ">
-      <h2>Mintys is Susana's web developer demo </h2>
+    <div className="d-grid gap-3 text-center pt-5 px-4 mb-5 ">
+      <h3 className="text-light">
+        <span className="text-primary">Mintys</span> is Susana's web developer
+        demo{" "}
+      </h3>
 
-      <div className="p-2 bg-light border">
-        Susana's Web Developer Demo which includes :
-      </div>
+      <div className="p-2  ">Which includes :</div>
 
-      <div className="p-2   p-0 m-0  ">
+      <div className="p-2    mt-2 mb-2  ">
         <ul className="home  p-0 ">
-          <li className="border border-secondary ">
+          <li className="border border-secondary text-light ">
             {" "}
             <i className="bi bi-feather  text-secondary pr-05 "></i> Design your
             own garden with js library dnd kit for drag and drop.
           </li>
-          <li className="border border-primary ">
+          <li className="border border-primary text-light ">
             {" "}
             <i className="bi bi-feather pr-05 text-primary"></i> Filter artists
             with the costarican artists directory . Using register, login and
             jswebtoken for authenticating.{" "}
           </li>
-          <li className="border border-info ">
+          <li className="border border-info text-light">
             {" "}
             <i className="bi bi-feather pr-05 text-info"></i> Main projects on
             my FullStack Academy web developer bootcamp{" "}
           </li>
-          <li className="border border-warning ">
+          <li className="border border-warning text-light ">
             {" "}
             <i className="bi bi-feather pr-05 text-warning "></i>About Me/
             Resume / Contact
@@ -39,9 +40,10 @@ export default function Home() {
         </ul>
       </div>
 
-      <div className="p-2 bg-light border ">
-        Technologies used: PERN Postgress , Express , React and Node . CSS flex
-        to make it resizable . Bootswatch template{" "}
+      <div className="p-2  ">
+        <span className="text-warning">Technologies used: </span> PERN Postgress
+        , Express , React and Node . CSS flex to make it resizable . Bootswatch
+        template{" "}
         <a href="https://bootswatch.com/minty/" target="_blank">
           Minty
         </a>{" "}

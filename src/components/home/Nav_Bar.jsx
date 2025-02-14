@@ -4,7 +4,10 @@ import { useSelector, useDispatch } from "react-redux";
 
 export default function Nav_Bar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark px-3 " data-bs-theme="dark">
+    <nav
+      className="navbar navbar-expand-lg bg-primary px-3 "
+      data-bs-theme="dark"
+    >
       <div className="container-fluid ">
         <NavLink to="/" className="navbar-brand text-secondary">
           Minty
@@ -27,7 +30,7 @@ export default function Nav_Bar() {
         <div className="collapse navbar-collapse" id="navbarColor02">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <NavLink to="/garden" className="nav-link ">
+              <NavLink to="/garden" className="nav-link text-dark-emphasis ">
                 Garden Studio
               </NavLink>
             </li>
