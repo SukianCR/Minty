@@ -9,7 +9,8 @@ import Home from "./components/home/Home.jsx";
 import About from "./components/home/About.jsx";
 import Resume from "./components/home/Resume.jsx";
 import Contact from "./components/home/Contact.jsx";
-import Garden from "./components/garden/Garden.jsx";
+// import Garden from "./components/garden/Garden.jsx";
+import Garden from "./components/garden/Garden_model.jsx";
 import Artists from "./components/artists/Artists.jsx";
 import FSWA from "./components/FSWA/FSWA.jsx";
 

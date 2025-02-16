@@ -62,17 +62,17 @@ export default function Nav_Bar() {
               <div className="dropdown-menu mb-3 pink up2">
                 <NavLink
                   to="/about"
-                  className="nav-link border-bottom border-warning "
+                  className="nav-link border-bottom border-primary text-light "
                 >
                   About
                 </NavLink>
                 <NavLink
                   to="/resume"
-                  className="nav-link border-bottom border-warning"
+                  className="nav-link border-bottom border-primary text-light"
                 >
                   Resume
                 </NavLink>
-                <NavLink to="/contact" className="nav-link ">
+                <NavLink to="/contact" className="nav-link text-light ">
                   Contact
                 </NavLink>
               </div>

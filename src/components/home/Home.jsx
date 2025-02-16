@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
 
@@ -18,24 +19,33 @@ export default function Home() {
         <ul className="home  p-0 ">
           <li className="border border-secondary text-light rounded ">
             {" "}
-            <i className="bi bi-feather  text-secondary pr-05 "></i> Design your
-            own garden with js library dnd kit for drag and drop.
+            <NavLink to="/garden" className="nav-link text-light ">
+              <i className="bi bi-feather  text-secondary pr-05 "></i> Design
+              your own garden with js library dnd kit for drag and drop.
+            </NavLink>{" "}
           </li>
+
           <li className="border border-primary text-light rounded ">
             {" "}
-            <i className="bi bi-feather pr-05 text-primary rounded"></i> Filter
-            artists with the costarican artists directory . Using register,
-            login and jswebtoken for authenticating.{" "}
+            <NavLink to="/artists" className="nav-link text-light ">
+              <i className="bi bi-feather pr-05 text-primary rounded"></i>{" "}
+              Filter artists with the costarican artists directory . Using
+              register, login and jswebtoken for authenticating.{" "}
+            </NavLink>
           </li>
           <li className="border border-warning text-light rounded">
-            {" "}
-            <i className="bi bi-feather pr-05 text-warning"></i> Main projects
-            on my FullStack Academy web developer bootcamp{" "}
+            <NavLink to="/fswa" className="nav-link text-light ">
+              {" "}
+              <i className="bi bi-feather pr-05 text-warning"></i> Main projects
+              on my FullStack Academy web developer bootcamp{" "}
+            </NavLink>
           </li>
           <li className="border border-info text-light rounded ">
-            {" "}
-            <i className="bi bi-feather pr-05 text-info "></i>About Me/ Resume /
-            Contact
+            <NavLink to="/about" className="nav-link text-light ">
+              {" "}
+              <i className="bi bi-feather pr-05 text-info "></i>About Me/ Resume
+              / Contact
+            </NavLink>
           </li>
         </ul>
       </div>
