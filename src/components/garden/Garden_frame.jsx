@@ -7,14 +7,16 @@ export default function Garden_frame() {
   const navigate = useNavigate();
 
   return (
-    <div className="d-grid gap-3 text-center pt-5 px-4 mb-5 ">
-      <div className="p-2 mb-2">
+    <div className=" text-center my-1">
+      <div className="py-5">
         <ul className="garden_frame p-0">
-          <li className="border border-secondary text-light rounded ">
+          <li className="border border-secondary text-secondary rounded p-4 lead   ">
             Garden Info
           </li>
-          <li className="border border-primary text-light rounded ">Canvas</li>
-          <li className="border border-warning text-light rounded">
+          <li className="border border-primary text-primary rounded p-4 lead  ">
+            Canvas
+          </li>
+          <li className="border border-warning text-warning rounded p-4 lead ">
             Plant filter form and plant list
           </li>
         </ul>

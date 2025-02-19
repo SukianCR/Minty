@@ -7,50 +7,53 @@ export default function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="d-grid gap-3 text-center pt-5 px-4 mb-5 ">
-      <h3 className="text-light">
-        <span className="text-primary shadow-green">Minty</span> is Susana's web
-        developer demo{" "}
-      </h3>
+    <div className=" text-center my-5">
+      <div className="lead">
+        {" "}
+        <span>
+          {" "}
+          <h3 className="text-secondary">Minty</h3>{" "}
+        </span>
+        Susana Fernandez's web developer
+        <span className="text-warning"> demo </span> - 02/2025
+      </div>
 
-      <div className="p-2 text-secondary ">Which includes :</div>
-
-      <div className="p-2     mb-2  ">
-        <ul className="home  p-0 ">
-          <li className="border border-secondary text-light rounded ">
+      <div className="py-5 ">
+        <ul className="garden_frame p-0">
+          <li className="border border-secondary lead text-secondary rounded p-4 ">
             {" "}
-            <NavLink to="/garden" className="nav-link text-light ">
+            <NavLink to="/garden" className="nav-link  ">
               <i className="bi bi-feather  text-secondary pr-05 "></i> Design
               your own garden with js library dnd kit for drag and drop.
             </NavLink>{" "}
           </li>
 
-          <li className="border border-primary text-light rounded ">
+          <li className="border border-primary text-primary rounded p-4 lead  ">
             {" "}
-            <NavLink to="/artists" className="nav-link text-light ">
+            <NavLink to="/artists" className="nav-link ">
               <i className="bi bi-feather pr-05 text-primary rounded"></i>{" "}
               Filter artists with the costarican artists directory . Using
               register, login and jswebtoken for authenticating.{" "}
             </NavLink>
           </li>
-          <li className="border border-warning text-light rounded">
-            <NavLink to="/fswa" className="nav-link text-light ">
+          <li className="border border-warning text-warning rounded p-4 lead ">
+            <NavLink to="/fswa" className="nav-link tex ">
               {" "}
               <i className="bi bi-feather pr-05 text-warning"></i> Main projects
               on my FullStack Academy web developer bootcamp{" "}
             </NavLink>
           </li>
-          <li className="border border-info text-light rounded ">
-            <NavLink to="/about" className="nav-link text-light ">
+          <li className="border border-info text-info rounded p-4 lead  ">
+            <NavLink to="/about" className="nav-link  ">
               {" "}
-              <i className="bi bi-feather pr-05 text-info "></i>About Me/ Resume
-              / Contact
+              <i className="bi bi-feather pr-05 text-info "></i>About Me /
+              Resume / Contact
             </NavLink>
           </li>
         </ul>
       </div>
 
-      <div className="p-2 text-info ">
+      <div className="p-2 text-info lead ">
         <span className="text-warning">Technologies used: </span> PERN Postgress
         , Express , React and Node . CSS flex to make it resizable . Bootswatch
         template{" "}

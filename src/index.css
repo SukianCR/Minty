@@ -30,23 +30,9 @@
   /* align-items: center; */
 }
 
-.home {
+/* .home {
   justify-content: space-around;
-}
-
-.home > li,
-.garden_frame > li {
-  padding: 1em;
-  margin: 2em;
-  list-style: none;
-  transition: margin-top 1s, margin-bottom 1s;
-}
-
-.home > li:hover,
-.garden_frame > li:hover {
-  margin-top: -1em;
-  margin-bottom: 5em;
-}
+} */
 
 body {
   /* background-image: linear-gradient(
@@ -227,14 +213,23 @@ select {
 nav {
   background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
 }
+
 .nav-link {
   padding: 0.5em 0.8em !important;
 }
 
-.nav-link:hover {
-  margin-top: -0.4em;
-  transition: margin-top 1s;
-  text-shadow: 2px 2px 0.5em #f2b04f;
+.home > li,
+.garden_frame > li {
+  margin: 2em;
+  list-style: none;
+  transition: margin-top 1.3s, margin-bottom 1.3s;
+}
+
+.home > li:hover,
+.garden_frame > li:hover {
+  margin-top: -1em;
+  margin-bottom: 5em;
+  box-shadow: 0em 0em 1em #ffffff83;
 }
 
 .btn-link {
