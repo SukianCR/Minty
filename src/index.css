@@ -36,16 +36,16 @@
 
 .home > li,
 .garden_frame > li {
-  padding: 3em;
-  margin: 1em;
+  padding: 1em;
+  margin: 2em;
   list-style: none;
   transition: margin-top 1s, margin-bottom 1s;
 }
 
 .home > li:hover,
 .garden_frame > li:hover {
-  margin-top: -2em;
-  margin-bottom: 4em;
+  margin-top: -1em;
+  margin-bottom: 5em;
 }
 
 body {
