@@ -8,13 +8,11 @@ export default function Nav_Bar() {
       className="navbar navbar-expand-lg bg-primary px-3 "
       data-bs-theme="dark"
     >
-      <div className="container-fluid ">
-        <NavLink to="/" className="navbar-brand text-secondary up1 ">
-          <span className="twoX shadow-red"> Minty </span>
-          <i className="bi bi-feather pr-03 twoX fw-bold shadow-red"></i>
-          <span className="text-warning twoX fw-light shadow-yellow">
-            Demo
-          </span>{" "}
+      <div className="container-fluid w100 ">
+        <NavLink to="/" className="navbar-brand text-warning up1 ">
+          <span className="twoX shadow-yellow"> Minty </span>
+          <i className="bi bi-feather twoX fw-bold shadow-yellow"></i>
+
           <span className="visually-hidden">(current)</span>
         </NavLink>
 

@@ -14,32 +14,38 @@
 }
 
 .home > li:hover {
-  margin-top: 0em;
-  margin-bottom: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
-
 
 /**/
 
-.home {
+.home,
+.garden_frame {
   display: flex;
   flex-direction: row;
   /* flex-wrap: nowrap | wrap | wrap-reverse; */
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   /* align-items: center; */
 }
 
-.home > li {
-  padding: 1em;
+.home {
+  justify-content: space-around;
+}
+
+.home > li,
+.garden_frame > li {
+  padding: 3em;
   margin: 1em;
   list-style: none;
   transition: margin-top 1s, margin-bottom 1s;
 }
 
-.home > li:hover {
-  margin-top: 0em;
-  margin-bottom: -2em;
+.home > li:hover,
+.garden_frame > li:hover {
+  margin-top: -2em;
+  margin-bottom: 4em;
 }
 
 body {
@@ -61,9 +67,6 @@ body {
   }
 }
 
-
-
-
 /** GARDEN CSS **/
 
 /** Position css **/
@@ -82,8 +85,6 @@ body {
   border-bottom: #ff4da67c dotted 0.4em;
   transition: 0.5s;
 }
-
-
 
 .aife {
   align-items: flex-end !important;
@@ -203,9 +204,6 @@ body {
 /* .bi {
   color: pink !important;
 } */
-
-
-
 
 .drop_position {
   margin: 1em;
