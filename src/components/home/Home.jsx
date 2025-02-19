@@ -45,7 +45,7 @@ export default function Home() {
             <NavLink to="/fswa" className="nav-link tex ">
               {" "}
               <i className="bi bi-feather pr-05 text-warning"></i> Main projects
-              on my FullStack Academy web developer bootcamp{" "}
+              at FullStack Academy web developer bootcamp{" "}
             </NavLink>
           </li>
           <li className="border border-info text-info rounded p-4 lead  ">

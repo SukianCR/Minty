@@ -33,7 +33,7 @@ export default function Nav_Bar() {
             <li className="pink my-2 text-danger mx-1   ">.</li>
             <li className="nav-item ">
               <NavLink to="/garden" className="nav-link text-dark lead  ">
-                Garden Studio 1
+                Garden Studio
               </NavLink>
             </li>
             <li className="pink my-2 text-danger mx-1   ">.</li>

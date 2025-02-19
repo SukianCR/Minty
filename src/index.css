@@ -223,6 +223,11 @@ nav {
   padding: 0.5em 0.8em !important;
 } */
 
+.nav-link:hover {
+  box-shadow: 0 3px 3px -3px #ffaa2d;
+  /* box-shadow: 0 3px 3px -3px #de7f88; */
+}
+
 .home > li,
 .garden_frame > li {
   margin: 2em;
