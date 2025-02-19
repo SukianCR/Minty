@@ -23,7 +23,7 @@ export default function Home() {
           </small>
         </figcaption>
       </figure>
-      <div className="py-3 ">
+      <div className="py-5 ">
         <ul className="garden_frame p-0">
           <li className="border border-secondary lead text-secondary rounded p-4 ">
             {" "}
@@ -57,9 +57,9 @@ export default function Home() {
           </li>
         </ul>
       </div>
-      <div className="p-2 text-info lead ">
-        <span className="text-warning">Technologies used: </span> PERN Postgress
-        , Express , React and Node . CSS flex to make it resizable . Bootswatch
+      <div className="mt-5   fw-lighter fs-5 px-4 ">
+        <span className="fw-bolder ">Technologies used</span>: PERN (Postgress ,
+        Express , React and Node) . Bootstrap CSS display flex . Bootswatch
         template{" "}
         <a href="https://bootswatch.com/minty/" target="_blank">
           Minty
