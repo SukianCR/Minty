@@ -19,7 +19,7 @@ export default function Home() {
         <figcaption className="blockquote-footer">
           <small>
             {" "}
-            <cite title="Source Title">Detroit, MI</cite> 02/2025
+            <cite title="Source Title">Detroit, MI . 02/2025 </cite>
           </small>
         </figcaption>
       </figure>

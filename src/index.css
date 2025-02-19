@@ -1,6 +1,5 @@
 /** NEW ONES **/
 
-
 .pr-03 {
   padding-right: 0.3em;
 }
@@ -34,11 +33,25 @@ body {
   min-height: 100vh;
   background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
-
+.dropdown-menu {
+  background-color: #00000054 !important;
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
   .home > li {
     padding: 1em;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  li.pink {
+    display: none;
+  }
+  dropdown-menu {
+    color: black !important;
+  }
+  dropdown-menu > * {
+    border-color: black !important;
   }
 }
 
@@ -159,7 +172,10 @@ body {
 }
 
 .pink {
-  background-color: #f3969b9f !important;
+  background-color: #f3969b5b !important;
+  display: flex;
+  align-items: center;
+  height: 1.5em !important;
 }
 
 .hot-pink {
@@ -218,6 +234,9 @@ nav {
 .garden_frame > li:hover {
   margin-top: -1em;
   margin-bottom: 5em;
+  box-shadow: 0em 0em 1em #ffffff83;
+}
+.dropdown-menu {
   box-shadow: 0em 0em 1em #ffffff83;
 }
 
