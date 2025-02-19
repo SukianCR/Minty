@@ -8,17 +8,22 @@ export default function Home() {
 
   return (
     <div className=" text-center my-5">
-      <div className="lead">
-        {" "}
-        <span>
-          {" "}
-          <h3 className="text-secondary">Minty</h3>{" "}
-        </span>
-        Susana Fernandez's web developer
-        <span className="text-warning"> demo </span> - 02/2025
-      </div>
-
-      <div className="py-5 ">
+      <p className="text-secondary display-6 pb-1  ">Minty</p>{" "}
+      <figure className="text-center lead px-4">
+        <blockquote className="blockquote">
+          <p>
+            Susana Fernandez's web developer
+            <span className="text-warning"> demo </span>
+          </p>
+        </blockquote>
+        <figcaption className="blockquote-footer">
+          <small>
+            {" "}
+            <cite title="Source Title">Detroit, MI</cite> 02/2025
+          </small>
+        </figcaption>
+      </figure>
+      <div className="py-3 ">
         <ul className="garden_frame p-0">
           <li className="border border-secondary lead text-secondary rounded p-4 ">
             {" "}
@@ -52,7 +57,6 @@ export default function Home() {
           </li>
         </ul>
       </div>
-
       <div className="p-2 text-info lead ">
         <span className="text-warning">Technologies used: </span> PERN Postgress
         , Express , React and Node . CSS flex to make it resizable . Bootswatch

@@ -5,13 +5,14 @@ import { useSelector, useDispatch } from "react-redux";
 export default function Nav_Bar() {
   return (
     <nav
-      className="navbar navbar-expand-lg bg-primary px-3 "
+      className="navbar navbar-expand-lg bg-primary px-4 w100"
       data-bs-theme="dark"
     >
-      <div className="container-fluid w100 ">
-        <NavLink to="/" className="navbar-brand text-warning up1 ">
-          <span className="twoX shadow-yellow"> Minty </span>
-          <i className="bi bi-feather twoX fw-bold shadow-yellow"></i>
+      <div className="container-fluid w100">
+        <NavLink to="/" className="navbar-brand text-black  ">
+          <span className="shadow-yellow display-6"> Minty </span>
+
+          <i className="bi bi-feather  fw-bold shadow-yellow"></i>
 
           <span className="visually-hidden">(current)</span>
         </NavLink>
@@ -28,27 +29,29 @@ export default function Nav_Bar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarColor02">
-          <ul className="navbar-nav me-auto">
-            <li className="nav-item">
-              <NavLink to="/garden" className="nav-link text-light ">
-                Garden Studio
+          <ul className="navbar-nav me-auto ">
+            <li className="nav-item align-middle ">
+              <NavLink to="/garden" className="nav-link text-dark lead  ">
+                Garden Studio 1
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink to="/artists" className="nav-link text-light">
+
+            <li className="nav-item px-2 ">
+              <NavLink to="/artists" className="nav-link text-dark lead ">
                 CR Artists
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink to="/fswa" className="nav-link text-light">
+
+            <li className="nav-item ">
+              <NavLink to="/fswa" className="nav-link text-dark lead ">
                 FullStack Academy
               </NavLink>
             </li>
 
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown px-2">
               <NavLink
                 to="/resume"
-                className="nav-link dropdown-toggle text-light"
+                className="nav-link dropdown-toggle text-dark lead "
                 data-bs-toggle="dropdown"
                 href="#"
                 role="button"
@@ -57,21 +60,22 @@ export default function Nav_Bar() {
               >
                 Susana
               </NavLink>
-              <div className="dropdown-menu mb-3 pink up2">
+
+              <div className="dropdown-menu mb-3 pink ">
                 <NavLink
                   to="/about"
-                  className="nav-link border-bottom border-primary text-light "
+                  className="nav-link border-bottom border-primary   "
                 >
-                  About
+                  <small className=" lead text-light"> About</small>
                 </NavLink>
                 <NavLink
                   to="/resume"
-                  className="nav-link border-bottom border-primary text-light"
+                  className="nav-link border-bottom border-primary "
                 >
-                  Resume
+                  <small className=" lead text-light"> Resume</small>
                 </NavLink>
-                <NavLink to="/contact" className="nav-link text-light ">
-                  Contact
+                <NavLink to="/contact" className="nav-link">
+                  <small className=" lead text-light"> Contact</small>
                 </NavLink>
               </div>
             </li>

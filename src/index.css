@@ -1,14 +1,6 @@
 /** NEW ONES **/
 
-.up1 {
-  margin-top: -0.5em;
-}
-.up2 {
-  margin-top: -0.6em !important;
-}
-.twoX {
-  font-size: 1.3em;
-}
+
 .pr-03 {
   padding-right: 0.3em;
 }
@@ -16,6 +8,10 @@
 .home > li:hover {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
+}
+
+.navbar-brand > .display-6 {
+  font-size: 1.5em !important;
 }
 
 /**/
@@ -35,15 +31,8 @@
 } */
 
 body {
-  /* background-image: linear-gradient(
-    to bottom right,
-    rgba(255, 0, 0, 0.151),
-    rgba(255, 255, 0, 0.137)
-  ); */
   min-height: 100vh;
-
-  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -211,12 +200,12 @@ select {
   text-align: center;
 }
 nav {
-  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
-.nav-link {
+/* .nav-link {
   padding: 0.5em 0.8em !important;
-}
+} */
 
 .home > li,
 .garden_frame > li {
@@ -247,6 +236,9 @@ nav {
   padding: 3em !important;
 }
 
+.dropdown-menu {
+  transition: display 2s;
+}
 .tik {
   display: flex;
 }
